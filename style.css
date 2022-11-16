@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+h1, h2, p{
+    text-align: center;
+}
+.wrapper {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.menu {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+.icone{
+    width: auto;
+    height: 10vh;    
+    padding-top: 15px;
+    margin: 25%;
+}
+.nav{
+    width: 10vw;
+    height: 90vh;
+    padding-top: 15px;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    height: 100%;
+}
+.header {
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 5px black);
+}
+.content {
+    background-color: white;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.img_inicio{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(0px 0px 15px blue);
+}
+.tratamentos{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+.ansiedade{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.depressão{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.stress{    
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.luto{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.compulsões{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.transtornos{
+    margin: 30px;
+    padding: 3rem;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.agenda{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    padding: 15px;
+}
+.tabela{
+    width: 40%;
+}
+.formulario{
+    width: 40%;
+    display: block;
+    border: 1px solid black;
+}
+.localização{
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 5px black);
+    text-align: center;
+}
+.icones-redes-sociais li {
+    display: inline;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icones-redes-sociais img {
+    width: 4rem;
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSICOLOGIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <div class="icone">
+                <img src="psi.png" alt="" width="100px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="tratamentos.html">Tratamentos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="localização.html">Localização</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="header"><!-- Aqui vai o seu header -->
+                <p>" Não podemos mudar, não podemos nos afastar do que somos, enquanto não aceitarmos profundamente o que somos”</p>    
+                <p>Carl Rogers</p>        
+            </div>
+  
+            <div class="content"><!-- Aqui vai o seu conteúdo -->
+                <h1>Clinica Vincere - Agende seu horario:</h1>
+                <div class="agenda">
+                    <div>
+                        <table border="1">
+                            <tr>
+                                <th>Dia da semana</th>
+                                <th colspan="2">Horario de atendimento</th>
+                            </tr>
+                            <tr>
+                                <td>Segunda-feira</td>
+                                <td>9:00 as 12:00</td>
+                                <td>14:00 as 17:00</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta-feira</td>
+                                <td>9:00 as 12:00</td>
+                                <td>14:00 as 17:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta-feira</td>
+                                <td>9:00 as 12:00</td>
+                                <td>14:00 as 17:00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="formulario">
+                        <form action="post">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome">
+                            <label for="endereço">Endereço</label>
+                            <input type="text" name="endereço" id="endereço">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" name="telefone" id="telefone">
+                            <label for="idade">Idade</label>
+                            <input type="text" name="idade" id="idade">
+                            <label for="sexo">Sexo</label>
+                            <select name="" id="">
+                                <option value=""select></option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                            </select>
+                            <br>
+                            <label for="dia">Dia da semana</label>
+                            <select name="dia" id="dia">
+                                <option value=""select></option>
+                                <option value="segunda">Segunda-feira</option>
+                                <option value="quarta">Quarta-feira</option>
+                                <option value="sexta">Sexta-feira</option>
+                            </select>
+                            <label for="horario">Horario</label>
+                            <select name="horario" id="horario">
+                                <option value=""select></option>
+                                <option value="manhã-9:00">9:00 ás 9:50</option>
+                                <option value="manhã-10:00">10:00 ás 10:50</option>
+                                <option value="manhã-11:00">11:00 ás 11:50</option>
+                                <option value="tarde-14:00">14:00 ás 14:50</option>
+                                <option value="tarde-15:00">15:00 ás 15:50</option>
+                                <option value="tarde-16:00">16:00 ás 16:50</option>
+                            </select>
+                            <div>
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Limpar dados</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>                           
+            </div>
+    
+            <div class="footer"><!-- Aqui vai o seu rodapé -->
+                <p>&copy; 2022, Vitor Paulon.</p>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
